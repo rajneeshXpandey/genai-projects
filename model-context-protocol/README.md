@@ -106,6 +106,12 @@ The key difference is **who does the work**:
 
 ---
 
+# MCP Flow
+
+![MCP Flow](images/007.png)
+
+---
+
 # MCP Server Primitives
 
 Now that we've built our MCP server, let's review the three core server primitives and understand when to use each one.  

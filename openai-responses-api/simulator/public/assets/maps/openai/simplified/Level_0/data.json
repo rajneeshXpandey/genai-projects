@@ -1,0 +1,39 @@
+{
+    "identifier": "Level_0",
+    "uniqueIdentifer": "a3e97de0-8560-11f0-9824-cb54fe1f275f",
+    "x": 0,
+    "y": 0,
+    "width": 3408,
+    "height": 1392,
+    "bgColor": "#696A79",
+    "neighbourLevels": [],
+    "customFields": {},
+    "layers": [
+        "Floor.png",
+        "Walls.png",
+        "Doors.png",
+        "Gym.png",
+        "Furnishings.png",
+        "Basement.png",
+        "Hospital.png",
+        "Kitchen.png",
+        "Elevators.png",
+        "Side_walls.png",
+        "Logo.png"
+    ],
+    "entities": {
+        "Wendy_laptop": [
+            {
+                "id": "Wendy_laptop",
+                "iid": "f4594470-8560-11f0-a634-05cf914a08b5",
+                "layer": "Positions",
+                "x": 483,
+                "y": 793,
+                "width": 48,
+                "height": 48,
+                "color": 12470831,
+                "customFields": {}
+            }
+        ]
+    }
+}

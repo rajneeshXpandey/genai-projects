@@ -1,0 +1,72 @@
+# -----------------------------
+# Node.js / npm project ignores
+# -----------------------------
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build outputs
+dist/
+build/
+out/
+coverage/
+.next/
+.nuxt/
+.cache/
+.temp/
+tmp/
+temp/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.test
+.env.development
+.env.production
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+
+# Test and reports
+coverage/
+.nyc_output/
+
+# Optional caches
+.pnpm-store/
+.eslintcache
+.stylelintcache
+.cache-loader/
+.parcel-cache/
+
+# TypeScript build artifacts
+*.tsbuildinfo
+
+# Svelte / Next / Remix / Astro / etc.
+.svelte-kit/
+.vercel/
+.netlify/
+functions/
+astro/
+
+# Local development files
+*.local
+*.log

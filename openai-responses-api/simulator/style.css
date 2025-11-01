@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Abaddon Bold';
+    src: url('/assets/fonts/Abaddon Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Abaddon Light';
+    src: url('/assets/fonts/Abaddon Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #1c172e;
+    min-height: 100vh;
+}
+
+#app {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#phaser-wrapper {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+#debug-panel-root {
+    flex: 0 0 auto;
+    width: 100%;
+    background: rgba(5, 3, 12, 0.92);
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 -8px 18px rgba(0, 0, 0, 0.4);
+}
+
+.debug-panel {
+    width: 100%;
+}
+
+.debug-panel__header {
+    width: 100%;
+    background: rgba(12, 9, 20, 0.92);
+    color: rgba(255, 255, 255, 0.9);
+    border: none;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    font-family: monospace;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.debug-panel__header:hover,
+.debug-panel__header:focus-visible {
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.debug-panel__caret {
+    margin-right: 8px;
+}
+
+.debug-panel__content {
+    padding: 16px 20px;
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgba(240, 240, 240, 0.92);
+    white-space: pre-wrap;
+    overflow-y: auto;
+    max-height: 260px;
+    background: rgba(0, 0, 0, 0.55);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.debug-panel.collapsed .debug-panel__content {
+    display: none;
+}
